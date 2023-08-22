@@ -8,8 +8,7 @@ namespace MyMathProject
 {
     internal class MyMath
     {
-        public int a;
-        public int b;
+       
 
         public static int Calc_ggT(int a, int b)
         {
@@ -28,18 +27,18 @@ namespace MyMathProject
             return (a * b) / Calc_ggT(a, b);
         }
 
-        public static int clac_rekursive_ggT(int a, int b)
+        public static int Clac_rekursive_ggT(int a, int b)
         {
             if (b == 0)
             {
                 return a;
             }
 
-            return clac_rekursive_ggT(b, a % b);
+            return Clac_rekursive_ggT(b, a % b);
         }
 
 
-        public static int calc_mean(int[] storage)
+        public static int Calc_mean(int[] storage)
         {
             int sum = 0;
             int m = 0;
@@ -53,7 +52,7 @@ namespace MyMathProject
         }
 
         
-        public static int calc_min(int[] storage)
+        public static int Calc_min(int[] storage)
         {
             int min = storage[0];
             foreach(int val in storage)
@@ -64,7 +63,7 @@ namespace MyMathProject
             return min;
         }
 
-        public static int calc_max(int[] storage)
+        public static int Calc_max(int[] storage)
         {
             int max = storage[0];
             foreach (int val in storage)
@@ -75,10 +74,9 @@ namespace MyMathProject
             return max;
         }
 
-        public static void swap()
+        public static void Swap(ref int a, ref int b)
         {
-            int temp;
-            temp = a;
+            int temp = a;
             a = b;
             b = temp;
         }
