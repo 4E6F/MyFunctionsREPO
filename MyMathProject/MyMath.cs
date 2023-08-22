@@ -8,6 +8,9 @@ namespace MyMathProject
 {
     internal class MyMath
     {
+        public int a;
+        public int b;
+
         public static int Calc_ggT(int a, int b)
         {
             int z = 0;
@@ -53,13 +56,31 @@ namespace MyMathProject
         public static int calc_min(int[] storage)
         {
             int min = storage[0];
-            int next = 0;
             foreach(int val in storage)
             {
-                
+                min = min <= val ? min : val;
             }
-            
+
+            return min;
         }
 
+        public static int calc_max(int[] storage)
+        {
+            int max = storage[0];
+            foreach (int val in storage)
+            {
+                max = max <= val ? max : val;
+            }
+
+            return max;
+        }
+
+        public static void swap()
+        {
+            int temp;
+            temp = a;
+            a = b;
+            b = temp;
+        }
     }
 }
