@@ -9,16 +9,20 @@ namespace Composition_Task
     internal class Customer
     {
         public string CustomerName { get; set; }
-
+        public Konto CustomerKonto { get; set; }
+        public Customer() { }
 
         public Customer(string customerName)
         {
+            Customer customer = new Customer();
             CustomerName = customerName;
+            CustomerKonto = customer.GetKonto();
+
         }
 
-        public Konto GetKonto(int kontoNumber)
+        public Konto GetKonto()
         {
-            return new Konto(1);
+            return new Konto(0);
         }
     }
 }
