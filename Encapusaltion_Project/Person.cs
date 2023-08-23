@@ -10,14 +10,21 @@ namespace Encapusaltion_Project
     {
         private int wutLevel;
         private int appetitLevel;
-        
 
 
-        public void Provozieren(int level)
-        {
 
+        public Person() {
+            this.wutLevel = 0;
+            this.appetitLevel = 0;
         }
 
+        public Person(int wutLevel, int appetitLevel) {
+            this.wutLevel = wutLevel;
+            this.appetitLevel = appetitLevel;
+        }
+
+        public void Provozieren(int level) { }
+        
         private void Ausrasten() { }
 
         public void EssenGeben() { }
