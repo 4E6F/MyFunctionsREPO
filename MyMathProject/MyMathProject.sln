@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMathProject", "MyMathProject.csproj", "{2DF79EA7-57C0-4749-949A-1612D282E6C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instanzvariablen", "..\Instanzvariablen\Instanzvariablen.csproj", "{F7B731CD-A080-4A3B-96F3-C05CD2AD8322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instanzvariablen", "..\Instanzvariablen\Instanzvariablen.csproj", "{F7B731CD-A080-4A3B-96F3-C05CD2AD8322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapusaltion_Project", "..\Encapusaltion_Project\Encapusaltion_Project.csproj", "{745D243D-C209-49EC-A775-D25DEE2CD4BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F7B731CD-A080-4A3B-96F3-C05CD2AD8322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7B731CD-A080-4A3B-96F3-C05CD2AD8322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7B731CD-A080-4A3B-96F3-C05CD2AD8322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745D243D-C209-49EC-A775-D25DEE2CD4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745D243D-C209-49EC-A775-D25DEE2CD4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745D243D-C209-49EC-A775-D25DEE2CD4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745D243D-C209-49EC-A775-D25DEE2CD4BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

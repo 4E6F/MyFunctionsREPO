@@ -8,8 +8,8 @@ namespace MyMathProject
 {
     internal class MyMath
     {
-       
 
+        
         public static int Calc_ggT(int a, int b)
         {
             int z = 0;
@@ -80,5 +80,11 @@ namespace MyMathProject
             a = b;
             b = temp;
         }
-    }
+
+        public static void MultWith2 (int factor, out int res)
+            { // out paramter muss ausgeben werden und geschrieben aber nicht gelesen inout == ref 
+
+            res = factor * 2;
+            }
+}
 }
