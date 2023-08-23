@@ -10,19 +10,7 @@ namespace Composition_Task
     {
         public string CustomerName { get; set; }
         public Konto CustomerKonto { get; set; }
-        public Customer() { }
 
-        public Customer(string customerName)
-        {
-            Customer customer = new Customer();
-            CustomerName = customerName;
-            CustomerKonto = customer.GetKonto();
-
-        }
-
-        public Konto GetKonto()
-        {
-            return new Konto(0);
-        }
+        public List<Konto> kontos { get; set; }
     }
 }

@@ -10,12 +10,10 @@ namespace Aggregation_Task
     {
         public string HardDiskName { get; set; }
 
-        public int MemoryCap { get; set }
+        public int MemoryCap { get; set; }
         public int DiskSize { get; set; }
 
-        public HardDisk(string hardDiskName)
-        {
-            HardDiskName = hardDiskName;
-        }
+        public void caching() { }
+
     }
 }

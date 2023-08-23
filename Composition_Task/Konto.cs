@@ -11,19 +11,9 @@ namespace Composition_Task
     {
         public int KontoNumber { get; set; }
 
-        public string KontoOwner { get; set; }
+        public Customer KontoOwner { get; set; }
 
-        public Konto() { }
-        public Konto(int kontoNumber)
-        {
-            Konto konto = new Konto();
-            KontoOwner = konto.GetCustomers()[0].CustomerName;
-            KontoNumber = kontoNumber;
-        }
-
-        public Customer[] GetCustomers()
-        {
-            return new Customer[] { new Customer("Eve"), new Customer("Ueli"), new Customer("Gabi"), new Customer("Jürg"), new Customer("Peter") };
-        }
+        public Customer GetCustomer() { return new Customer(); }
+        
     }
 }

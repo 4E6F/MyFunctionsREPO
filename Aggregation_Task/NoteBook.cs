@@ -13,8 +13,9 @@ namespace Aggregation_Task
 
         public string Brand { get; set; }
 
-        public List<HardDisk> GetHardDisks() {
-            return new List<HardDisk> { new HardDisk("HD1")};
-        }
+        public List<HardDisk> HardDiskNames { get; set; }
+        
+
+        public void work() { }
     }
 }
