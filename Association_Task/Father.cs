@@ -12,6 +12,6 @@ namespace Association_Task
 
         private string FatherName { get; set; }
         
-        public List<Child> Children { get; set; }
+        public Child Children { get; set; }
     }
 }

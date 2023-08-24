@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Father father = new Father();
+            Child child = new Child();
+            child.Father = father;
+            father.Child = child;
             
         }
     }

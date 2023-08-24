@@ -8,9 +8,12 @@ namespace Association_Task
 {
     internal class Louse
     {
-
+        private Dog dog;
         public string Name { get; set; }
 
-        public Dog getDog { get => new Dog(); }
+        public Dog()
+        {
+
+        }
     }
 }

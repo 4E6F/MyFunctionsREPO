@@ -10,6 +10,6 @@ namespace Association_Task
     {
         private string ChildName { get; set; }
 
-        public Father GetFather { get => new Father(); }
+        public Father GetFather { get; set; }
     }
 }

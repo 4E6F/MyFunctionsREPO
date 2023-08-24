@@ -8,9 +8,10 @@ namespace Association_Task
 {
     internal class Dog
     {
+        private List<Louse> louse = new List<Louse>;
         public static string Name { get; set; }
 
-        public List<Louse> getLouses { get => new List<Louse>();}
+        public Louse
 
     }
 }

@@ -13,9 +13,16 @@ namespace Aggregation_Task
 
         public string Brand { get; set; }
 
-        public List<HardDisk> HardDiskNames { get; set; }
-        
+        //Aggregation
 
-        public void work() { }
+        private HardDisk[] hardDisks = new HardDisk[3];
+
+        public NoteBook(HardDisk hardDisks)
+        {
+            this.hardDisks[0] = hardDisks;
+        }
+        
+        //....
+        
     }
 }
