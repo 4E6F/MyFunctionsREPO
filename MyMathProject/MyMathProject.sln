@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregation_Task", "..\Aggr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composition_Task", "..\Composition_Task\Composition_Task.csproj", "{7D24F792-6FDC-4FFF-8F74-9A778114B3C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verein_Task", "..\Verein_Task\Verein_Task.csproj", "{495E06C7-62BD-4E86-A5CC-1BA168A467F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verein_Task", "..\Verein_Task\Verein_Task.csproj", "{495E06C7-62BD-4E86-A5CC-1BA168A467F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMathProjectTests", "..\MyMathProjectTests\MyMathProjectTests.csproj", "{8F05C654-A0C9-48BE-B1A7-EEA6A6CD91D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoShapes", "..\GeoShapes\GeoShapes.csproj", "{731044E6-D8C0-41F9-BDD7-9D09D77A913B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoShapesTests", "..\GeoShapesTests\GeoShapesTests.csproj", "{5A27604A-5C3B-40C3-8386-E884AE77A052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{495E06C7-62BD-4E86-A5CC-1BA168A467F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{495E06C7-62BD-4E86-A5CC-1BA168A467F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{495E06C7-62BD-4E86-A5CC-1BA168A467F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F05C654-A0C9-48BE-B1A7-EEA6A6CD91D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F05C654-A0C9-48BE-B1A7-EEA6A6CD91D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F05C654-A0C9-48BE-B1A7-EEA6A6CD91D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F05C654-A0C9-48BE-B1A7-EEA6A6CD91D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731044E6-D8C0-41F9-BDD7-9D09D77A913B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731044E6-D8C0-41F9-BDD7-9D09D77A913B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731044E6-D8C0-41F9-BDD7-9D09D77A913B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731044E6-D8C0-41F9-BDD7-9D09D77A913B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A27604A-5C3B-40C3-8386-E884AE77A052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A27604A-5C3B-40C3-8386-E884AE77A052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A27604A-5C3B-40C3-8386-E884AE77A052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A27604A-5C3B-40C3-8386-E884AE77A052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyMathProject
 {
-    internal class MyMath
+    public class MyMath
     {
 
         
@@ -36,8 +36,13 @@ namespace MyMathProject
 
             return Clac_rekursive_ggT(b, a % b);
         }
+        
 
-
+        /// <summary>
+        /// Berechnet Mittelwert
+        /// </summary>
+        /// <param name="storage">Array von Ganzzahlen, aus</param>
+        /// <returns>return Mittelwert</returns>
         public static int Calc_mean(int[] storage)
         {
             int sum = 0;
